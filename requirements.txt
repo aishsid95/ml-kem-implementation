@@ -1,0 +1,17 @@
+# ML-KEM-512 Implementation Requirements
+# Educational post-quantum cryptography implementation
+# Python 3.8+
+
+# No external cryptographic libraries required!
+# Uses Python standard library only for educational transparency
+
+# Optional: For testing and development
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Note: This implementation intentionally uses only Python standard library:
+# - hashlib (SHA3-256)
+# - secrets (cryptographically secure randomness)
+# - typing (type hints)
+#
+# No external dependencies for core functionality!
